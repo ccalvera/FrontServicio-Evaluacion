@@ -28,7 +28,7 @@ export class PruebaComponent implements OnInit {
     nombreEstudiante: null,
     nota: null
   };
-  pregunta: Pregunta ={
+  pregunta: Pregunta = {
     id: null,
     descripcion: null,
     imagen: null,
@@ -106,7 +106,7 @@ export class PruebaComponent implements OnInit {
     })
   }
 
-  saveQuestion(){
+  saveQuestion() {
     this.preguntaService.saveQuestion(this.pregunta)
 
 
@@ -157,7 +157,7 @@ export class PruebaComponent implements OnInit {
       {
         label: 'Nueva Pregunta',
         icon: 'pi pi-plus-circle',
-        command: () =>this.saveQuestion()
+        command: () => this.saveQuestion()
       },
       {
         label: 'Editar',

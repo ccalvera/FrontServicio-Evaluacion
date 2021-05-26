@@ -7,13 +7,7 @@ export class Pregunta{
     valoracion: number;
     tipoPregunta: number;
     idPrueba: number;
-    rUnicaCorrecta: number;
-    rUnicaEstudiante: number;
-    respuestasPosiblesDto: RespuestasPosiblesDto[];
-    respuestasMultiplesEstudiante: string;
-    respuestasMultiplesCorrectas: string;
-    respuestaAbierta: string;
-    rAbiertaCorrecta: boolean;
+    |
 
     constructor(descripcion: string = null, imagen: string = null, valoracion: number = null, tipoPregunta: number = null,
         idPrueba: number = null, rUnicaCorrecta: number = null, rUnicaEstudiante: number = null,
